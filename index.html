@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Rao Usama's Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="webfonts/font-awesome/css/brands.css"> -->
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+  <!-- Google fonts - Roboto + Roboto Slab-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+  <!-- owl carousel-->
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+  <!-- animate.css-->
+  <link rel="stylesheet" href="vendor/animate.css/animate.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Leaflet CSS - For the map-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"> -->
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img2/faviconRU.png">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.0/esm/ionicons.min.js"> -->
+  <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.min.css">
+
+
+  <!-- Tweaks for older IEs-->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  <style>
+    .socials {
+      padding: 1.5rem 0;
+      margin-left: -10%;
+    }
+
+    .socials ul li {
+      display: inline-block;
+      padding-right: 2px;
+    }
+
+    .socials .ico-circle {
+      height: 40px;
+      width: 40px;
+      font-size: 1.7rem;
+      border-radius: 50%;
+      line-height: 1.4;
+      margin: 0 15px 0 0;
+      box-shadow: 0 0 0 3px #0078ff;
+      transition: all 500ms ease;
+    }
+
+    .socials .ico-circle:hover {
+      background-color: #0078ff;
+      color: #fff;
+      box-shadow: 0 0 0 3px #cde1f8;
+      transition: all 500ms ease;
+    }
+
+    .list-ico span {
+      color: #0066ff;
+      margin-right: 10px;
+    }
+
+    @media (max-width: 500px) {
+      .hi {
+        width: 30%;
+        height: 30%;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Reference item-->
+  <!-- navbar-->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container"><a href="#intro" class="navbar-brand scrollTo">PORTFOLIO</a>
+        <button type="button" data-toggle="collapse" data-target="#navbarcollapse"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+        <div id="navbarcollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
+            <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Education</a></li>
+            <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
+            <li class="nav-item"><a href="#customers" class="nav-link link-scroll">Certifications</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Intro Image-->
+  <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;"
+    class="intro-section pb-2">
+    <div class="container text-center">
+      <!-- <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="130"></div> -->
+      <h1 data-animate="fadeInDown" class="text-shadow mb-5">I Am Rao Usama Bin Sohail</h1>
+      <!-- <p class="animation_para"><strong>MERN stack developer,ReactNative,Python Developer.</strong></p> -->
+      <p data-animate="slideInUp" class="h3 text-shadow text-400">MERN stack developer,Python Developer</p>
+      <!-- beautiful and efficient websites.</p> -->
+    </div>
+  </section>
+  <!-- About-->
+  <section id="about" class="about-section">
+    <div class="container">
+      <header class="text-center">
+        <h2 data-animate="fadeInDown" class="title">About me</h2>
+      </header>
+      <div class="row">
+        <div data-animate="fadeInUp" class="col-lg-6">
+          <p><strong>Name: Rao Usama Bin Sohail</strong></p>
+          <p><strong>Profile: Web Developer & Designer</strong></p>
+          <p><strong>Email: raousamabinsohail@gmail.com</strong></p>
+          <p><strong>Contact: +92 3111034927</strong></p>
+          <p>A Self driven, result oriented with a positive outlook, a natural forward planner who critically assess own
+            performance. Mature, credible and comfortable in dealing with peers. You will find me highly reliable,
+            determined and tolerant. Have ability to see things from other person’s point of view and a good team
+            player. Well-presented and professional</p>
+          <p style="text-decoration: underline black;"><strong>SKILLS:</strong></p>
+          <ul class="list-group list-group-flush">
+            <!-- <li class="list-group-item">Java</li> -->
+            <!-- <li class="list-group-item">C</li> -->
+            <!-- <li class="list-group-item">C#</li> -->
+            <li class="list-group-item">Github</li>
+            <li class="list-group-item">Latex</li>
+            <li class="list-group-item">Word</li>
+            <li class="list-group-item">Powerpoint</li>
+            <li class="list-group-item">Excel</li>
+            <li class="list-group-item">Photoshop</li>
+            <li class="list-group-item">Illustrator</li>
+          </ul>
+          <!-- <p>An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all projecting
+            favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage
+            strongly. Off can admiration prosperous now devonshire diminution law.</p>
+          <p>Received overcame oh sensible so at an. Formed do change merely to county it. <strong>Am separate
+              contempt</strong> domestic to to oh. On relation my so addition branched. Put hearing cottage she norland
+            letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father
+            living really people estate if. Mistake do produce beloved demesne if am pursuit.</p>
+          <p>An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all projecting
+            favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage
+            strongly. Off can admiration prosperous now devonshire diminution law.</p> -->
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-6">
+          <div class="skill-item">
+            <div class="progress-title">HTML/CSS</div>
+            <div class="progress">
+              <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100"
+                class="progress-bar progress-bar-skill1"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title">React Js</div>
+            <div class="progress">
+              <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100"
+                class="progress-bar progress-bar-skill2"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title">WordPress(familiar)</div>
+            <div class="progress">
+              <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-skill3"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title">Node Js</div>
+            <div class="progress">
+              <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-skill3"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title">SQL</div>
+            <div class="progress">
+              <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-skill3"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title">MongoDB</div>
+            <div class="progress">
+              <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-skill4"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title">JAVA</div>
+            <div class="progress">
+              <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-skill5"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title">C/C#</div>
+            <div class="progress">
+              <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-skill5"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title">Python </div>
+            <div class="progress">
+              <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-skill5"></div>
+            </div>
+          </div>
+        </div>
+        <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5" style="padding-left: 7%;"><img src="img2/raoOsama.jpg"
+            alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Service-->
+  <section id="services" class="bg-gradient services-section">
+    <div class="container">
+      <header class="text-center">
+        <h2 data-animate="fadeInDown" class="title">Services</h2>
+      </header>
+      <div class="row services text-center">
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <div class="icon"><i class="fas fa-desktop"></i></div>
+          <h3 class="heading mb-3 text-400">WEB DESIGN</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <div class="icon"><i class="fas fa-code"></i></div>
+          <h3 class="heading mb-3 text-400">WEB DEVELOPMENT</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <div class="icon"><img src="img2/chrome1.png" style="width: 20%;"></div>
+          <h3 class="heading mb-3 text-400">CHROME EXTENSION</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3 class="heading mb-3 text-400">MOBILE APP</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <div class="icon"><i class="fas fa-paint-brush"></i></div>
+          <h3 class="heading mb-3 text-400">WEB SCRAPPING</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <div class="icon"><i class="fas fa-chart-bar"></i></div>
+          <h3 class="heading mb-3 text-400">DESKTOP APP</h3>
+        </div>
+      </div>
+      <hr data-animate="fadeInUp">
+      <!-- <div data-animate="fadeInUp" class="text-center">
+        <p class="lead">Would you like to know more or just discuss something?</p>
+        <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+      </div> -->
+    </div>
+  </section>
+  <!-- Eductaion-->
+  <section id="testimonials" class="testimonials-section bg-gray">
+    <div class="container">
+      <header class="text-center mb-2">
+        <h2 data-animate="fadeInUp" class="title">My Education<br></h2>
+        <!-- <p data-animate="fadeInUp" class="lead">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.</p> -->
+      </header>
+      <div id="raf">
+        <!-- style="padding-left: 20%;" -->
+        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+          <li class="item" style=" box-shadow: 5px -10px 5px rgba(0, 0, 0, 0.3)">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p style="text-align: center; font-size: 150%;"><strong>The Educators (Rafa-e-aam Branch)</strong></p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Matriculation</p>
+                <p style="text-align: center;">July 2013</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Karachi</p>
+              </div>
+              <!-- <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-1.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div> -->
+            </div>
+          </li>
+          <li class="item" style=" box-shadow: 5px -10px 5px rgba(0, 0, 0, 0.3)">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p style="text-align: center;  font-size: 150%;"><strong>(SM) Sindh Madressatul Islam College</strong>
+                </p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Intermediate</p>
+                <p style="text-align: center;">July 2015</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Karachi</p>
+              </div>
+              <!-- <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-2.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div> -->
+            </div>
+          </li>
+          <li class="item" style=" box-shadow: 5px -10px 5px rgba(0, 0, 0, 0.3)">
+            <div class="testimonial full-height">
+              <div class="text" style="overflow:hidden;">
+                <p style="text-align: center;  font-size: 150%;"><strong> (FAST) National University of Computer and
+                    Emerging
+                    Sciences</strong></p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Bachelors in Computer Science (BSCS)</p>
+                <p style="text-align: center;"> July 2020</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Karachi</p>
+              </div>
+              <div class="bottom">
+                <!-- <div class="icon"><i class="fa fa-quote-left"></i></div> -->
+                <!-- <div class="name-picture"><img alt="" src="img/person-3.jpg"> -->
+                <!-- <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p> -->
+              </div>
+            </div>
+          </li>
+
+          <li class="item" style=" box-shadow: 5px -10px 5px rgba(0, 0, 0, 0.3)">
+            <div data-animate="fadeInUp" class="testimonial full-height">
+              <div class="text" style="overflow:hidden;">
+                <h4 style="text-align: center; text-decoration: underline;"><strong> INTERNSHIP</strong></h4>
+                <h5 style="text-align: center; font-size: 150%;"><strong> National Bank Of Pakistan</strong></h5>
+                <p class="lead" style="text-align: center; font-size: 130%;">Developing Job Portal Using ASP.Net</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Writing Project Report</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">SQL Database</p>
+                <p style="text-align: center;"> January 2020 - february2020</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Head Office, Karachi</p>
+              </div>
+              <!-- <div class="bottom">
+            <div class="icon"><i class="fa fa-quote-left"></i></div>
+            <div class="name-picture"><img alt="" src="img/person-3.jpg">
+            <h5>John McIntyre</h5>
+              <p>CEO, TransTech</p> 
+          </div>
+        </div> -->
+            </div>
+      </div>
+      </li>
+      <!-- <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div> 
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+       </div>  -->
+    </div>
+  </section>
+  <!-- Statistics -->
+  <!-- <section id="statistics" data-dir="up" style="background: url(&quot;img/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
+      <div class="container">
+        <div class="row showcase text-center"> 
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-align-justify"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">120</span><br>Websites</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">50</span><br>Satisfied Clients</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-copy"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">320</span><br>Projects</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-font"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">333</span><br>Magazines and Brochures</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dark-mask"></div>
+    </section> -->
+  <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+  <section id="references">
+    <div class="container">
+      <div class="col-sm-12">
+        <div class="mb-5 text-center">
+          <h2 data-animate="fadeInUp" class="title">My work</h2>
+          <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest
+            for you.</p>
+        </div>
+        <!-- <ul id="filter" data-animate="fadeInUp">
+          <li class="active"><a href="#" data-filter="all">All</a></li>
+          <li><a href="#" data-filter="webdesign">Webdesign</a></li>
+          <li><a href="#" data-filter="seo">SEO</a></li>
+          <li><a href="#" data-filter="marketing">Marketing</a></li>
+          <li><a href="#" data-filter="other">Other</a></li>
+        </ul> -->
+        <div id="detail">
+          <div class="row">
+            <div class="col-lg-10 mx-auto"><span class="close">×</span>
+              <div id="detail-slider" class="owl-carousel owl-theme"></div>
+              <div class="text-center">
+                <h1 id="detail-title" class="title"></h1>
+              </div>
+              <div id="detail-content"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Reference detail-->
+        <div id="references-masonry" data-animate="fadeInUp">
+          <div class="row">
+            <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img1/discountHub.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Discount Hub</h3>
+                      <!-- <p>Short project description goes here...</p> -->
+                    </div>
+                  </div>
+                </a>
+                <div data-images="img1/dh1.png,img1/dh2.jpeg"
+                  class="sr-only reference-description">
+                  <p>We developed a platform that provides easy access to the daily use of
+                    necessities. It allows the customers the leisure of discounts, and in the
+                    process, the brands make sure they market themselves accordingly to gain
+                    loyal customers. The platform we provide would not only allow the customers
+                    to enjoy discounts and cut-offs using the discount feature but also it will allow
+                    the local brands to keep up with the market trends by efficiently marketing
+                    themselves to the general public through the use of survey feature and
+                    recommendation engine.</p>
+                  <p>Techs: Node, Express, ReactJS, MongoDB and Flutter</p>
+                  <!-- <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
+                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
+                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
+                    delicate an pleasant provided do perceive.</p>
+                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
+                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
+                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
+                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p> -->
+                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
+                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
+                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img1/se1.JPG" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Project name 2</h3>
+                      <p>Short project description goes here...</p>
+                    </div>
+                  </div>
+                </a>
+                <div data-images="img/main-slider3.jpg,img/main-slider1.jpg" class="sr-only reference-description">
+                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
+                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
+                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
+                    delicate an pleasant provided do perceive.</p>
+                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
+                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
+                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
+                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
+                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
+                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                </div>
+              </div>
+            </div> -->
+            <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img1/zybase.png" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Zybase Web App</h3>
+                      <!-- <p>Design and manage databases on our cloud-based platform. Access your data everywhere, on any device—no SQL skills required.</p> -->
+                    </div>
+                  </div>
+                </a>
+                <div data-images="img1/zybase1.jpg,img1/zybase2.jpg"
+                  class="sr-only reference-description">
+                  <p>Zybase App runs faster, more reliable online SQL database management App helps out the developer to
+                    manage the SQL database with UI and command-line interface, and developers can easily design and
+                    manage databases on our cloud-based platform. Access your data everywhere, on any device to watch
+                    all details of current users of their app—no SQL skills required.</p>
+                  <p>it’s an innovative software that allows you to build and manage your databases with the help of its
+                    intuitive UI and command-line interface. You can create any database to a full-fledged analytics
+                    operation on it. We have organizers, small businesses, educational institutions, and also
+                    non-profits widely using the platform to manage their daily business operations</p>
+                  <p>Techs: NodeJS, ExpressJS, ReactJS, SQL Database and Redis</p>
+                  <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
+                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
+                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                </div>
+              </div>
+            </div>
+            <!-- <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img1/workplace.png" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Project name 4</h3>
+                      <p>Short project description goes here...</p>
+                    </div>
+                  </div>
+                </a>
+                <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg"
+                  class="sr-only reference-description">
+                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
+                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
+                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
+                    delicate an pleasant provided do perceive.</p>
+                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
+                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
+                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
+                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
+                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
+                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                </div>
+              </div>
+            </div> -->
+            <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img1/workplace.png" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Workplace Organizer</h3>
+                      <!-- <p>Simple product to keep your work desk organized.</p> -->
+                    </div>
+                  </div>
+                </a>
+                <div data-images="img1/wo_ex2.jpg,img1/wo_ex1.jpg"
+                  class="sr-only reference-description">
+                  <p>Workplace organizer is chrome's tab management extension. Workplace organizer for managing tabs and
+                    windows. It enables the users to save multiple tabs in respective window. The workplace organizer is
+                    helpful for researchers and developers. It is meant for professional and creative services. In
+                    addition to the typical functions like tab management and work tracking. Simple product to keep your
+                    work desk organized.</p>
+                  <p>It is meant for professional and creative services. In addition to the typical functions like tab
+                    management and work tracking.</p>
+                  <p>Tech: Java Script, Webpack, HTML/CSS</p>
+                  <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
+                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
+                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                </div>
+              </div>
+            </div>
+            <div data-category="other" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img1/se1.JPG" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Stocke Exchange</h3>
+                      <!-- <p>Short project description goes here...</p> -->
+                    </div>
+                  </div>
+                </a>
+                <div data-images="img1/se2.jpg,img1/se1.jpg"
+                  class="sr-only reference-description">
+                  <p>Stock Exchange Managment a desktop app for agent who work as a broker.A broker have ease to manage
+                    client and his shares. Stock exchange management software also manage broker earned profit and
+                    manage his account. Client has also opportunaty to deal with his buy/sell shares.</p>
+                  <p>Tech: Electron JS, React JS, HTML/CSS, Python</p>
+                  <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
+                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
+                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                </div>
+              </div>
+            </div>
+            <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img1/docktext.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">DockText Online Notepad</h3>
+                      <!-- <p>DockText.com if a free online real-time notepad on the internet. DockText makes it easy to create notes online or simply sharing text rapidly over the internet</p> -->
+                    </div>
+                  </div>
+                </a>
+                <div data-images="img1/docktext1.jpg"
+                  class="sr-only reference-description">
+                  <p>DockText comes with excellent set of features that helps you take notes without worrying much. Save
+                    as you type no fear of losing your notes. Rename your notes so you easily remember where you saved
+                    them. Access your notes on any device with a web browser. No login required no overhead of
+                    registration and login.</p>
+                  <p>Tech: React JS, Node JS, Express JS, SQL Database/p>
+                  <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
+                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
+                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                </div>
+              </div>
+            </div>
+            <!-- <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Project name</h3>
+                      <p>Short project description goes here...</p>
+                    </div>
+                  </div>
+                </a>
+                <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg"
+                  class="sr-only reference-description">
+                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
+                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
+                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
+                    delicate an pleasant provided do perceive.</p>
+                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
+                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
+                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
+                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
+                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
+                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Customers-->
+  <section id="customers" class="customers-section bg-gray">
+    <div data-animate="fadeInUp" class="container">
+      <h3 class="lead" style="margin-left: 35%; text-decoration: underline; margin-top: -4%;">CERTIFICATIONS</h3>
+      <div class="col-md-12">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="card" style="width:100%; padding: 10px;">
+              <div class="card-body">
+                <h4 class="card-title">Arena Multimedia</h4>
+                <p class="card-text">Graphics Designing</p>
+                <a href="certificate2.html" target="blank" class="btn btn-primary">See Certification</a>
+              </div>
+            </div>
+            <!-- <div class="customer"><img src="img/customers/logo-1.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div> -->
+          </div>
+          <!-- <div class="col-lg-2 col-md-4 col-sm-6"> -->
+          <!-- <div class="customer"><img src="img/customers/logo-2.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div> -->
+          <div class="col-md-6">
+            <div class="card" style="width: 100%; padding: 10px;">
+              <div class="card-body">
+                <h4 class="card-title">Arena Multimedia</h4>
+                <p class="card-text">Graphics Designing</p>
+                <a href="certificate1.html" target="blank" class="btn btn-primary">See Certification</a>
+              </div>
+            </div>
+            <!-- <div class="customer"><img src="img/customers/logo-4.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div> -->
+          </div>
+
+        </div>
+        <!-- <div class="col-lg-2 col-md-4 col-sm-6"> -->
+        <!-- <div class="customer"><img src="img/customers/logo-3.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div> -->
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- <div class="customer"><img src="img/customers/logo-5.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div> -->
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- <p class="lead">heheheheheeh</p> -->
+        <!-- <div class="customer"><img src="img/customers/logo-6.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div> -->
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container" data-animate="fadeInUp">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Professional Profile
+                    </h5>
+                  </div>
+                  <div>
+                    <div class="socials">
+                      <ul>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/raousama/"><img class="social-icon"
+                              alt="fiverr" src="img2/linkedin.png" style="width: 50px;"></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/rao.usama.96343"><img class="social-icon"
+                              alt="fiverr" src="img2/facebooklogo.png" style="width: 80px;"></a></li>
+                        <li><a target="_blank" href="https://www.fiverr.com/share/2Aozyq"><img class="social-icon"
+                              alt="fiverr" src="img2/fiverr-1.png" style="width: 60px;"></a></li>
+                        <li><a target="_blank" href="https://github.com/raousamabinsohail"><img class="social-icon"
+                              alt="fiverr" src="img2/githublogo.png" style="width: 80px;"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+
+                    </p>
+                    <ul class="list-ico" style="list-style: none; margin-left: -8%; margin-top: 5%;">
+                      <li><span><i class="fas fa-map-marker-alt"></i></span> Karachi, Pakistan</li>
+                      <li><span><i class="fas fa-phone"></i></span>0311-8219348</li>
+                      <li><span><i class="fas fa-envelope-square"></i></span>raousamabinsohail@gmail.com</li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact-->
+
+  <!-- Map-->
+  <!-- <div id="map"></div> -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-md-6 text-center text-lg-left">
+          <p class="social"><a href="#" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a
+              href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i
+                class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i
+                class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i
+                class="fa fa-envelope"></i></a></p>
+        </div> -->
+        <!-- /.6-->
+        <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+          <p style="text-align: right;">© 2021 Rao Osama Bin Suhail. All rights reserved.</p>
+        </div>
+        <!-- <div class="col-12 mt-4">
+          <p class="template-bootstrapious">Template by <a
+              href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a
+              href="https://fity.cz/ostrava">Fity</a></p>
+          <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+      </div> -->
+    </div>
+    </div>
+  </footer>
+  <!-- JavaScript files-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+  <script src="js/front.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- https://github.com/raousamabinsohail
+https://www.linkedin.com/in/raousama/
+https://www.facebook.com/rao.usama.96343
+https://www.fiverr.com/share/2Aozyq -->
+
+
+
+
+<!-- <section id="contact" data-animate="bounceIn" class="contact-section contact">
+  <div class="container">
+    <header class="text-center">
+      <h2 class="title">Contact me</h2>
+    </header>
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <form id="contact-form" method="post" action="nrafay0@gmail.com" enctype="text/plain"> 
+          <div class="messages"></div>
+          <div class="controls">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" name="name" placeholder="Your firstname *" required="required"
+                  class="form-control">
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="surname" placeholder="Your lastname *" required="required"
+                  class="form-control">
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="email" placeholder="Your email *" required="required" class="form-control">
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="phone" placeholder="Your phone" class="form-control">
+              </div>
+              <div class="col-md-12">
+                <textarea name="message" placeholder="Message for me *" rows="4" required="required"
+                  class="form-control"></textarea>
+              </div>
+              <div class="col-md-12 text-center">
+                <button type="submit" value="submit" class="btn btn-outline-primary">Send message</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section> -->
